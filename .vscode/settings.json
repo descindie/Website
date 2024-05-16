@@ -1,0 +1,14 @@
+{
+  "workbench.colorCustomizations": {
+    "[Visual Studio 2019 Dark*]": {
+      "sideBar.background": "#181819",
+      "editor.background": "#131313",
+      "tab.activeBackground": "#131313",
+      "tab.inactiveBackground": "#1f1f1f"
+    }
+  },
+  "html.format.wrapLineLength": 180,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false
+}
