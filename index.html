@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/site.css" />
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <title>descindie</title>
+</head>
+
+<body>
+  <div class="intro">
+    <div class="container">
+      <div class="intro__inner">
+        <div class="intro__logo">descindie</div>
+        <h1 class="intro__title">Website under construction</h1>
+
+        <nav class="nav">
+          <a class="nav--link" href="mailto:contact@descindie.com">Contact</a>
+          <a class="nav--link" href="https://www.youtube.com/@descindie" target="_blank" rel="nofollow noopener noreferrer">YouTube</a>
+          <a class="nav--link" href="https://discord.gg/nkkNrXhb" target="_blank" rel="nofollow noopener noreferrer">Discord</a>
+          <a class="nav--link" href="https://github.com/descindie" target="_blank" rel="nofollow noopener noreferrer">GitHub</a>
+          <a class="nav--link" href="https://play.google.com/store/apps/dev?id=8773673924407757777" target="_blank" rel="nofollow noopener noreferrer">Google Play</a>
+          <a id="privacy_policy_link" class="nav--link" href="privacy/en" target="_blank">Privacy Policy</a>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    if ((navigator.language || navigator.userLanguage).includes("hi"))
+      $("#privacy_policy_link").attr("href", "privacy/hi");
+  </script>
+</body>
+
+</html>
